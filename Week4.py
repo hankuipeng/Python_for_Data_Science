@@ -1,3 +1,4 @@
+import pandas 
 # %% Reading files with open
 file1 = open('README.md', 'w')
 
@@ -46,5 +47,5 @@ with open('practice.txt', 'w') as file2:
 
 
 # %% Pandas
-import pandas as pd
 csv_path = 'test.csv'
+df = pd.csv_read(csv_path)
